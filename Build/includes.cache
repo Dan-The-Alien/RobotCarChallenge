@@ -1,0 +1,57 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "/Users/daniel/Library/Arduino15/packages/arduino/hardware/avr/1.8.3/cores/arduino"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "/Users/daniel/Library/Arduino15/packages/arduino/hardware/avr/1.8.3/variants/standard"
+  },
+  {
+    "Sourcefile": "/Users/daniel/Documents/School Work/FRC/RobotCarChallenge/Build/sketch/RobotCarChallenge.ino.cpp",
+    "Include": "Servo.h",
+    "Includepath": "/Users/daniel/Documents/Arduino/libraries/Servo/src"
+  },
+  {
+    "Sourcefile": "/Users/daniel/Documents/School Work/FRC/RobotCarChallenge/Build/sketch/RobotCarChallenge.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/daniel/Documents/Arduino/libraries/Servo/src/avr/Servo.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/daniel/Documents/Arduino/libraries/Servo/src/mbed/Servo.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/daniel/Documents/Arduino/libraries/Servo/src/megaavr/Servo.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/daniel/Documents/Arduino/libraries/Servo/src/nrf52/Servo.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/daniel/Documents/Arduino/libraries/Servo/src/sam/Servo.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/daniel/Documents/Arduino/libraries/Servo/src/samd/Servo.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/daniel/Documents/Arduino/libraries/Servo/src/stm32f4/Servo.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]

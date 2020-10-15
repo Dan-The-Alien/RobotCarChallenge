@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "baremetal": "cpp",
+        "ostream": "cpp"
+    }
+}

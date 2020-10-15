@@ -1,0 +1,7 @@
+{
+    "board": "arduino:avr:uno",
+    "programmer": "AVRISP mkII",
+    "sketch": "RobotCarChallenge.ino",
+    "port": "/dev/tty.usbmodem14201",
+    "output": "./Build"
+}
