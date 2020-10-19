@@ -22,11 +22,12 @@
     #define LT_R !digitalRead(10) //Right line sensor port
 
     //===CONSTANTS===//
-    int kSlowestSpeed = 85; //8-bit value (This means that this value uses 8
+    int kSlowestSpeed = 85; // The least amount of power required to move the car. Will change based on battery charge. 
+                            // 8-bit value (This means that this value uses 8
                             // bits of data, or 8 zeros or ones. The highest 
                             // number you can make is 255, so this is a value between 0 and 255)
-    double kGoLinearSpeed = 1; //The speed at which the robot drives. Is used in the Go() function
-    double kGoRotationSpeed = .85; //The speed at which the robot turns. Is used in the Go() function
+    double kGoLinearSpeed = 1; //The speed at which the robot drives. Is used in the keepDistance() function
+    double kGoRotationSpeed = .85; //The speed at which the robot turns. Is used in the keepDistance() function
 
     //===VARIABLES===//
 
@@ -40,7 +41,7 @@
     
     char incomingByte = 's'; //Initial car state
 
-    boolean stop = false; //I don't remeber exactly why I have this here
+    boolean stop = false; //I don't remeber exactly why I have this here, I think it's a remenant of an old idea.
 
     Servo ultrasonicServo; //Initialize servo
 
